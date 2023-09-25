@@ -11,4 +11,4 @@
 
 ![band name generator](band_name_generator.gif)
 
-https://repl.it/@ranit-manik/band-name-generator-end
+- https://repl.it/@ranit-manik/band-name-generator-end
