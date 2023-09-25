@@ -9,8 +9,8 @@ bootcamp is an intensive programming course that covers a wide range of topics i
 
 ## Table of Contents
 
-1. [About the Course](#about-the-course)
-2. [Daily Progress](#daily-progress)
+1. [Daily Progress](#daily-progress)
+2. [About the Course](#about-the-course)
 3. [Tools and technologies](#tools-and-technologies)
 4. [Resources](#resources)
 5. [Acknowledgements](#acknowledgements)
