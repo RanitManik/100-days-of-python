@@ -16,6 +16,13 @@ bootcamp is an intensive programming course that covers a wide range of topics i
 5. [Acknowledgements](#acknowledgements)
 
 ---
+## Daily Progress
+
+### Day 1
+- Completed tasks for Day 1.
+- Learned about working with variables in Python.
+
+---
 
 ## About the Course
 
@@ -25,8 +32,6 @@ advanced topics. The course focuses on hands-on coding and includes a variety of
 For more information about the course and to enroll, visit [Angela Yu's website](https://www.appbrewery.co/).
 
 ---
-
-## Daily Progress
 
 ![wallpaper](wallpaper.png)
 
