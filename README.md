@@ -10,10 +10,11 @@ bootcamp is an intensive programming course that covers a wide range of topics i
 ## Table of Contents
 
 1. [Daily Progress](#daily-progress)
-2. [About the Course](#about-the-course)
-3. [Tools and technologies](#tools-and-technologies)
-4. [Resources](#resources)
-5. [Acknowledgements](#acknowledgements)
+2. [Getting Started](#getting-started)
+3. [About the Course](#about-the-course)
+4. [Tools and technologies](#tools-and-technologies)
+5. [Resources](#resources)
+6. [Acknowledgements](#acknowledgements)
 
 ---
 ## Daily Progress
@@ -21,6 +22,32 @@ bootcamp is an intensive programming course that covers a wide range of topics i
 ### Day 1
 - Completed tasks for Day 1.
 - Learned about working with variables in Python.
+
+---
+
+# Getting Started
+
+_To explore into this repository, follow these steps:_
+
+- **Clone** the repository:
+
+   ```bash
+   git clone https://github.com/RanitManik/Python-Wizardry.git
+
+- **Add This repo as Remote**  :
+
+   ```bash
+   git remote add origin https://github.com/RanitManik/Python-Wizardry.git
+
+- **Create and Switch to Your Branch** :
+
+   ```bash
+   git checkout -b YourBranchName
+
+- **push your changes** to this branch :
+
+   ```bash
+    git push --set-upstream origin DEV/{your_name}/{in which you working on}
 
 ---
 
