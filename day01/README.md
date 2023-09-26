@@ -9,15 +9,6 @@
 
 ## Band Name Generator
 
-- https://repl.it/@ranit-manik/band-name-generator-start
-
 ![band name generator](band_name_generator.gif)
 
-### code
-
-```
-print("Welcome to the Band Name Generator.")
-city = input("What's the name of the city you grew up in?\n")
-pet = input("What's your pet's name?\n")
-print("Your band name could be " + city + " " + pet)
-```
+- https://repl.it/@ranit-manik/band-name-generator-start
