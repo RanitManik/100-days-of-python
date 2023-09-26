@@ -25,7 +25,7 @@ bootcamp is an intensive programming course that covers a wide range of topics i
 
 ---
 
-# Getting Started
+## Getting Started
 
 _To explore into this repository, follow these steps:_
 
