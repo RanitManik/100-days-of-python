@@ -32,12 +32,12 @@ _To explore into this repository, follow these steps:_
 - **Clone** the repository:
 
    ```bash
-   git clone https://github.com/RanitManik/Python-Wizardry.git
+   git clone https://github.com/RanitManik/100-days-of-python.git
 
 - **Add This repo as Remote**  :
 
    ```bash
-   git remote add origin https://github.com/RanitManik/Python-Wizardry.git
+   git remote add origin https://github.com/RanitManik/100-days-of-python.git
 
 - **Create and Switch to Your Branch** :
 
