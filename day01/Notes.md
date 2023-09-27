@@ -1,6 +1,6 @@
 > # Notes
 
-# Table of Contents
+### Table of Contents
 
 1. [The "len()" Function](#The-"len()"-Function)
 2. [String Concatenation](#String-Concatenation)
