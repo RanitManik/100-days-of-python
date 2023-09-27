@@ -5,6 +5,8 @@
 1. [The "len()" Function](#The-"len()"-Function)
 2. [String Concatenation](#String-Concatenation)
 
+---
+
 ## The "len()" Function
 
 In Python, the `len()` function is used to get the length or the number of items in a sequence (like a string, list,
