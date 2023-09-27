@@ -125,7 +125,7 @@ perform type checking in Python:
    assert isinstance(x, int), "x should be an integer"
    ```
 
-5. **Duck Typing**:
+5. **Using `Duck Typing`:
 
    In Python, there's a saying: "If it walks like a duck and quacks like a duck, then it must be a duck." This means
    that Python doesn't require explicit type declarations. If an object supports the methods or attributes you expect,
