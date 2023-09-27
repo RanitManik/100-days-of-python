@@ -8,6 +8,6 @@
 
 ## Tip Calculator
 
-![tip calculator](tip_calculator.gif)
+![tip_calculator-min](https://github.com/RanitManik/100-days-of-python/assets/138437760/f87a2635-139e-4b36-ab96-02fa771862a8)
 
 https://repl.it/@ranit-manik/tip-calculator-start#main.py
