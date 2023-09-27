@@ -9,19 +9,12 @@ bootcamp is an intensive programming course that covers a wide range of topics i
 
 ## Table of Contents
 
-1. [Daily Progress](#daily-progress)
-2. [Getting Started](#getting-started)
-3. [About the Course](#about-the-course)
-4. [Tools and technologies](#tools-and-technologies)
-5. [Resources](#resources)
-6. [Acknowledgements](#acknowledgements)
-
----
-## Daily Progress
-
-### Day 1
-- Completed tasks for Day 1.
-- Learned about working with variables in Python.
+1. [Getting Started](#getting-started)
+2. [About the Course](#about-the-course)
+3. [Syllabus](#-beginner)
+3. [Tools and technologies](#tools-and-technologies)
+4. [Resources](#resources)
+5. [Acknowledgements](#acknowledgements)
 
 ---
 
