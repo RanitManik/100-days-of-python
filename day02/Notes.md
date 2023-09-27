@@ -45,7 +45,7 @@ different meanings depending on the context.
    In this loop, we're iterating five times, but we don't need the index variable. Using `_` as the variable name
    signals to others reading the code that the index is not relevant in this loop.
 
-3. **In Internationalization (i18n)**:
+3. **In Internationalization**:
 
    In the context of internationalization, `_` is commonly used as a function name for translating text to different
    languages. For example:
