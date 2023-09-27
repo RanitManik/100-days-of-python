@@ -26,7 +26,8 @@ print('what to print')
 
 e.g. When you hit **run**, this is what should happen:
 
-![](https://raw.githubusercontent.com/angelabauer/100-days-gifs/main/1.1.%20print.gif)
+
+<img src="https://raw.githubusercontent.com/angelabauer/100-days-gifs/main/1.1.%20print.gif" alt="Exercise GIF" style="width: 100%;">
 
 ---
 
@@ -53,7 +54,7 @@ New lines can be created with a backslash and n.
 
 e.g. When you hit **run**, there should be no errors and this is what should happen:
 
-![](https://cdn.fs.teachablecdn.com/BVP20Z2T1Gb4Pi6rOQah)
+<img src="https://cdn.fs.teachablecdn.com/BVP20Z2T1Gb4Pi6rOQah" alt="Exercise GIF" style="width: 100%;">
 
 ---
 
@@ -84,7 +85,7 @@ Angela
 
 e.g. When you hit **run**, this is what should happen:
 
-![](https://cdn.fs.teachablecdn.com/opevxYZSTM2ZHjbAX3XV)
+<img src="https://cdn.fs.teachablecdn.com/opevxYZSTM2ZHjbAX3XV" alt="Exercise GIF" style="width: 100%;">
 
 # Hint
 
@@ -97,9 +98,10 @@ e.g. When you hit **run**, this is what should happen:
 
 # Instructions
 
-Write a program that switches the values stored in the variables a and b. 
+Write a program that switches the values stored in the variables a and b.
 
-**Warning.** Do not change the code on lines 1-4 and 12-18. Your program should work for different inputs. e.g. any value of a and b.
+**Warning.** Do not change the code on lines 1-4 and 12-18. Your program should work for different inputs. e.g. any
+value of a and b.
 
 # Example Input
 
@@ -123,11 +125,11 @@ b: 3
 
 e.g. When you hit **run**, this is what should happen:
 
-![](https://cdn.fs.teachablecdn.com/tgdNl0iSqK6RpPyYZh9d)
+<img src="https://cdn.fs.teachablecdn.com/tgdNl0iSqK6RpPyYZh9d" alt="Exercise GIF" style="width: 100%;">
 
 # Hint
 
-1. You should not have to type any numbers in your code. 
+1. You should not have to type any numbers in your code.
 2. You might need to make some more variables.
 
 
