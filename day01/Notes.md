@@ -8,11 +8,7 @@
 
 ---
 
-<<<<<<< HEAD
 ## length checking in python
-=======
-## The "len()" Function
->>>>>>> 0da6e475124b7a55c5f6fd993367d3096fe15e7f
 
 In Python, the `len()` function is used to get the length or the number of items in a sequence (like a string, list,
 tuple, etc.). Here's how you use it:
