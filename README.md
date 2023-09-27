@@ -62,6 +62,8 @@ For more information about the course and to enroll, visit [Angela Yu's website]
 
 ![wallpaper](wallpaper.png)
 
+---
+
 ## 👨🏻‍🎓 Beginner
 - [x] [Day 01](day01): Working with Variables in Python to Manage Data
 - [x] [Day 02](day02): Understanding Data Types and How to Manipulate Strings
