@@ -25,6 +25,7 @@ print('what to print')
 ```
 
 e.g. When you hit **run**, this is what should happen:
+
 ![](https://raw.githubusercontent.com/angelabauer/100-days-gifs/main/1.1.%20print.gif)
 
 ---
