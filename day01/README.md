@@ -9,7 +9,8 @@
 
 ## Band Name Generator
 
-![band name generator](Project 1/band_name_generator.gif)
+![band_name_generator-min](https://github.com/RanitManik/100-days-of-python/assets/138437760/8e520563-c8ac-4ce6-a777-a59e2cad28cf)
+
 
 - https://repl.it/@ranit-manik/band-name-generator-start
 
