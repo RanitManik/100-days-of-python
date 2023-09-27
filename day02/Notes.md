@@ -74,11 +74,29 @@ different meanings depending on the context.
    4
    ```
 
+5. **visual separator**:
+
+   In Python, you can use underscores as a visual separator for large numbers to make them more readable. This is
+   particularly useful when dealing with large numerical values.
+
+   For example, if you have a large number like `234565562`, you can use underscores to make it more readable:
+
+   ```python
+   number = 234_565_562
+   ```
+
+   This does not affect the actual value of the number; it's purely for visual clarity. The underscores are ignored by
+   the
+   Python interpreter. This feature was introduced in Python 3.6.
+
+   Using underscores in this way can make it easier to read and understand large numbers, especially when dealing with
+   financial data, long numerical constants, or any situation where large numbers are used frequently.
+
    In this example, the last result, which is `4`, is stored in `_`. When you print `_`, it prints the value.
 
-Overall, the use of `_` in a print statement or in Python code in general is largely about conveying meaning to other
-developers. It's a way of indicating that a particular value or variable is intentionally being disregarded or isn't
-relevant in a given context.
+   Overall, the use of `_` in a print statement or in Python code in general is largely about conveying meaning to other
+   developers. It's a way of indicating that a particular value or variable is intentionally being disregarded or isn't
+   relevant in a given context.
 
 ---
 
