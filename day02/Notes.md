@@ -10,7 +10,7 @@
 6. [PEMDASLR rule](PEMDASLR-rule)
 7. [string is default datatype](string-is-default-datatype)
 8. [round function](#round-function)
-9. [f-String](fString)
+9. [f-String](#f-String)
 
 ---
 
