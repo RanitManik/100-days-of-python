@@ -60,7 +60,7 @@ For more information about the course and to enroll, visit [Angela Yu's website]
 ## 👨🏻‍🎓 Beginner
 - [x] [Day 01](day01): Working with Variables in Python to Manage Data
 - [x] [Day 02](day02): Understanding Data Types and How to Manipulate Strings
-- [Day 03](day03): Control Flow and Logical Operators
+- [x] [Day 03](day03): Control Flow and Logical Operators
 - [Day 04](day04): Randomisation and Python Lists
 - [Day 05](day05): Python Loops
 - [Day 06](day06): Python Functions & Karel
