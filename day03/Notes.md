@@ -6,6 +6,7 @@
 2. [Count Function in String](#count-function-in-string)
 3. [Using length Function in a String](#Using-length-Function-in-a-String)
 4. [Application of count Method](#application-of-count-method)
+5. [Python Escape Characters](#python-escape-characters)
 
 ---
 
@@ -168,5 +169,88 @@ Here's a breakdown of how it works:
 
 So, `true_count` and `love_count` are crucial for determining the final "love score" that the program will output. The
 love score is a combination of how many times the letters in "true" and "love" appear in the names provided by the user.
+
+---
+
+## Python Escape Characters
+
+Escape characters in Python are special sequences of characters that are used to represent certain non-printable characters or to include special characters in a string. They are preceded by a backslash (`\`). Here are some commonly used escape characters in Python:
+
+1. **`\n`**: Newline
+   - Example: `print("Hello\nWorld")` will output:
+     ```
+     Hello
+     World
+     ```
+
+2. **`\t`**: Tab
+   - Example: `print("Hello\tWorld")` will output:
+     ```
+     Hello   World
+     ```
+
+3. **`\\`**: Backslash
+   - Example: `print("C:\\Users\\John\\Desktop")` will output:
+     ```
+     C:\Users\John\Desktop
+     ```
+
+4. **`\'`**: Single Quote
+   - Example: `print('It\'s a sunny day')` will output:
+     ```
+     It's a sunny day
+     ```
+
+5. **`\"`**: Double Quote
+   - Example: `print("She said, \"Hello\"")` will output:
+     ```
+     She said, "Hello"
+     ```
+
+6. **`\b`**: Backspace
+   - Example: `print("Hello\bWorld")` will output (note that the backspace character moves the cursor back by one space):
+     ```
+     HellWorld
+     ```
+
+7. **`\r`**: Carriage Return
+   - Example: `print("Hello\rWorld")` will output:
+     ```
+     World
+     ```
+
+8. **`\f`**: Form Feed
+   - Example: `print("Hello\fWorld")` will output (in some environments, this may not have a noticeable effect):
+     ```
+     Hello
+         World
+     ```
+
+9. **`\v`**: Vertical Tab
+   - Example: `print("Hello\vWorld")` will output (similar to form feed, this may not have a noticeable effect in all environments):
+     ```
+     Hello
+     World
+     ```
+
+10. **`\xhh`**: Character with hex value `hh`
+    - Example: `print("\x48\x65\x6c\x6c\x6f")` will output:
+      ```
+      Hello
+      ```
+
+11. **`\ooo`**: Character with octal value `ooo`
+    - Example: `print("\110\145\154\154\157")` will output:
+      ```
+      Hello
+      ```
+
+12. **`\uXXXX` or `\UXXXXXXXX`**: Unicode character with hex value `XXXX` or `XXXXXXXX` (for 16-bit and 32-bit Unicode characters, respectively).
+    - Example: `print("\u0048\u0065\u006c\u006c\u006f")` will output:
+      ```
+      Hello
+      ```
+
+These are some of the most commonly used escape characters in Python. They allow you to work with special characters in strings and format your output effectively.
 
 ---
