@@ -2,8 +2,10 @@
 
 ### Table of Contents
 
-1. [Count Function](#count-function)
-2. [Using length Function in a String](#Using-length-Function-in-a-String)
+1. [Count Function](#count-method)
+2. [Count Function in String](#count-function-in-string)
+3. [Using length Function in a String](#Using-length-Function-in-a-String)
+4. [Application of count Method](#application-of-count-method)
 
 ---
 
@@ -42,6 +44,35 @@ all objects support this method.
 
 ---
 
+## Count Function in String
+
+If you want to count occurrences of a specific character or substring within a string, you can use the `count()` method
+for strings. Here's the syntax:
+
+```python
+string.count(substring)
+```
+
+- `string`: This is the string in which you want to count occurrences.
+- `substring`: This is the sequence of characters you want to count within the string.
+
+Here's an example:
+
+```python
+sentence = "She sells seashells by the seashore."
+s_count = sentence.count('s')
+
+print(s_count)
+```
+
+In this example, the variable `s_count` will store the number of times the letter 's' appears in the string `sentence`.
+When you run this code, it will print the count.
+
+Keep in mind that the `count()` method for strings is case-sensitive. If you want to count both upper and lower case
+versions of a character, you'll need to convert the string to either all uppercase or all lowercase before counting.
+
+---
+
 ## Using length Function in a String
 
 in Python, you can use the `len()` function to get the length of a string. Here's an example:
@@ -53,6 +84,89 @@ length = len(my_string)
 print(length)  # This will print the length of the string (in this case, 13)
 ```
 
-In this example, `my_string` is the string you want to find the length of. The `len()` function is used to determine how many characters are in the string, and the result is stored in the variable `length`. Finally, `print(length)` will display the length of the string.
+In this example, `my_string` is the string you want to find the length of. The `len()` function is used to determine how
+many characters are in the string, and the result is stored in the variable `length`. Finally, `print(length)` will
+display the length of the string.
+
+---
+
+## Application of count Method
+
+```python
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+
+true_word = "true"
+love_word = "love"
+
+name1 = name1.lower()
+name2 = name2.lower()
+
+true_count = sum(name1.count(letter) + name2.count(letter) for letter in true_word)
+love_count = sum(name1.count(letter) + name2.count(letter) for letter in love_word)
+
+love_score = int(f"{true_count}{love_count}")
+
+if love_score < 10 or love_score > 90:
+    print(f"Your score is {love_score}, you go together like coke and mentos.")
+elif 40 <= love_score <= 50:
+    print(f"Your score is {love_score}, you are alright together.")
+else:
+    print(f"Your score is {love_score}.")
+
+```
+
+In the program, `true_count` and `love_count` are variables that keep track of how many times the letters in the words "
+true" and "love" appear in the names provided by the user.
+
+Here's a breakdown of how it works:
+
+1. **Setting up the Words:**
+   ```python
+   true_word = "true"
+   love_word = "love"
+   ```
+   Here, we define two strings, `true_word` and `love_word`, which are the words we want to count in the names.
+
+2. **Converting Names to Lowercase:**
+   ```python
+   name1 = name1.lower()
+   name2 = name2.lower()
+   ```
+   This converts the names provided by the user to lowercase. This is important because we want the comparison to be
+   case-insensitive. For example, "True" and "true" should be treated as the same.
+
+3. **Counting Letters:**
+   ```python
+   true_count = sum(name1.count(letter) + name2.count(letter) for letter in true_word)
+   love_count = sum(name1.count(letter) + name2.count(letter) for letter in love_word)
+   ```
+   This code uses a loop to iterate over each letter in `true_word` and `love_word`. For each letter, it counts how many
+   times that letter appears in `name1` and `name2`, and then sums up those counts.
+
+   Let's break down the first line as an example:
+    - `for letter in true_word` iterates over the letters in the string "true", so it will go through 't', 'r', 'u',
+      and 'e'.
+    - `name1.count(letter)` counts how many times the current letter appears in `name1`.
+    - `name2.count(letter)` does the same for `name2`.
+    - `sum(...)` adds up all these counts.
+
+   This process is repeated for both `true_word` and `love_word`.
+
+   For example, if `name1` is "truetrue" and `name2` is "lovelove", `true_count` would be 8 (because 't' appears 4 times
+   and 'r', 'u', 'e' each appear 2 times), and `love_count` would be 8 (because 'l', 'o', 'v', 'e' each appear 2 times).
+
+4. **Calculating `love_score`:**
+   ```python
+   love_score = int(f"{true_count}{love_count}")
+   ```
+   This line combines `true_count` and `love_count` into a single integer. It does this by converting them to strings,
+   concatenating them, and then converting the resulting string back to an integer.
+
+   For example, if `true_count` is 8 and `love_count` is 8, `love_score` will be 88.
+
+So, `true_count` and `love_count` are crucial for determining the final "love score" that the program will output. The
+love score is a combination of how many times the letters in "true" and "love" appear in the names provided by the user.
 
 ---
