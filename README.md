@@ -1,4 +1,6 @@
-# 100 Days of Python Bootcamp by Angela Yu
+<div align="center">
+<h1> 100 Days of Python Bootcamp by Angela Yu</h1>
+</div>
 
 ![Course Logo](logo.png)
 
