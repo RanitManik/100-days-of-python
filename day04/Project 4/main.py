@@ -49,7 +49,9 @@ list_of_situations = [[rock, paper], [paper, scissors], [scissors, rock], [paper
 winning_statement = "YOU WIN 🏆🏆🏆"
 loosing_statement = "YOU LOOSE 😭😭😭"
 
-if list_of_current_situation == list_of_situations[0]:
+if choice == random_choice:
+    print("it's a draw📍📍📍")
+elif list_of_current_situation == list_of_situations[0]:
     print(loosing_statement)
 elif list_of_current_situation == list_of_situations[1]:
     print(loosing_statement)
