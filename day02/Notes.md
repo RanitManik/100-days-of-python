@@ -2,15 +2,15 @@
 
 ### Table of Contents
 
-1. [uses of Underscore_](#uses-of-Underscore_)
-2. [Type casting](#Type-casting)
-3. [Type checking](#Type-checking)
+1. [uses of Underscore_](#uses-of-underscore)
+2. [Type casting](#type-casting)
+3. [Type checking](#type-checking)
 4. [subscripting](#subscripting)
-5. [operators](operators)
-6. [PEMDASLR rule](PEMDASLR-rule)
-7. [string is default datatype](string-is-default-datatype)
+5. [operators](#operators)
+6. [PEMDASLR rule](#pemdaslr-rule)
+7. [string is default datatype](#string-is-default-datatype)
 8. [round function](#round-function)
-9. [f-String](#f-String)
+9. [f-String](#f-string)
 
 ---
 

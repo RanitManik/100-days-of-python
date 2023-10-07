@@ -14,9 +14,9 @@ bootcamp is an intensive programming course that covers a wide range of topics i
 1. [Getting Started](#getting-started)
 2. [About the Course](#about-the-course)
 3. [Syllabus](#-beginner)
-3. [Tools and technologies](#tools-and-technologies)
-4. [Resources](#resources)
-5. [Acknowledgements](#acknowledgements)
+4. [Tools and technologies](#tools-and-technologies)
+5. [Resources](#resources)
+6. [Acknowledgements](#acknowledgements)
 
 ---
 
