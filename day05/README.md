@@ -9,6 +9,6 @@
 
 ## Password Generator
 
-![password generator](password_generator.gif)
+![password_generator-min](https://github.com/RanitManik/100-days-of-python/assets/138437760/9f857c9b-9104-4e7a-b8a6-aa9301ae16b6)
 
-https://repl.it/@lenargasimov/password-generator-start#main.py
+- https://repl.it/@lenargasimov/password-generator-start#main.py
