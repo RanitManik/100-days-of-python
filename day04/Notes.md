@@ -6,11 +6,12 @@
 2. [random module](#random-module)
 3. [split method in string](#split-method-in-string)
 4. [modify split method by comma](#modify-split-method-by-comma)
-5. [lists](#lists)
-6. [list methods](#list-methods)
-7. [positive and negative indexing in lists](#positive-and-negative-indexing-in-lists)
-8. [Nested list](#nested-list)
-9. [slicing in python](#slicing-in-python)
+5. [can we use split method for integers](#can-we-use-split-for-integers)
+6. [lists](#lists)
+7. [list methods](#list-methods)
+8. [positive and negative indexing in lists](#positive-and-negative-indexing-in-lists)
+9. [Nested list](#nested-list)
+10. [slicing in python](#slicing-in-python)
 
 ---
 
@@ -170,91 +171,121 @@ you would with any other list in Python.
    from
    the user, and then apply `split()` to that string.
 
-Here's an example:
+   Here's an example:
 
-```python
-# Taking input from the user
-user_input = input("Enter a list of numbers separated by spaces: ")
+   ```python
+   # Taking input from the user
+   user_input = input("Enter a list of numbers separated by spaces: ")
+   
+   # Splitting the input into a list of numbers
+   numbers = user_input.split()
+   
+   # Converting the strings to integers
+   numbers = [int(num) for num in numbers]
+   
+   # Printing the list of numbers
+   print("List of numbers:", numbers)
+   ```
 
-# Splitting the input into a list of numbers
-numbers = user_input.split()
+   In this example, the program prompts the user to enter a list of numbers separated by spaces. The user's input is
+   then
+   stored in the variable `user_input`. Next, the `split()` method is applied to `user_input` to separate the numbers
+   based
+   on spaces, resulting in a list of strings. Finally, the list comprehension `[int(num) for num in numbers]` converts
+   these strings to integers.
 
-# Converting the strings to integers
-numbers = [int(num) for num in numbers]
+   For example, if the user enters `"1 2 3 4 5"`, the program will output:
 
-# Printing the list of numbers
-print("List of numbers:", numbers)
-```
+   ```
+   List of numbers: [1, 2, 3, 4, 5]
+   ```
 
-In this example, the program prompts the user to enter a list of numbers separated by spaces. The user's input is then
-stored in the variable `user_input`. Next, the `split()` method is applied to `user_input` to separate the numbers based
-on spaces, resulting in a list of strings. Finally, the list comprehension `[int(num) for num in numbers]` converts
-these strings to integers.
-
-For example, if the user enters `"1 2 3 4 5"`, the program will output:
-
-```
-List of numbers: [1, 2, 3, 4, 5]
-```
-
-Keep in mind that `split()` separates the input based on spaces by default. If you want to use a different delimiter,
-you can pass it as an argument to the `split()` method. For example, if the numbers are separated by commas, you can
-use `split(",")`.
+   Keep in mind that `split()` separates the input based on spaces by default. If you want to use a different delimiter,
+   you can pass it as an argument to the `split()` method. For example, if the numbers are separated by commas, you can
+   use `split(",")`.
 
 2. If you want to take input with commas and split it into a list of elements, you can modify the code accordingly.
    Here's
    an example:
 
-```python
-# Taking input from the user
-user_input = input("Enter a list of numbers separated by commas: ")
+   ```python
+   # Taking input from the user
+   user_input = input("Enter a list of numbers separated by commas: ")
+   
+   # Splitting the input into a list of numbers
+   numbers = user_input.split(',')
+   
+   # Converting the strings to integers
+   numbers = [int(num) for num in numbers]
+   
+   # Printing the list of numbers
+   print("List of numbers:", numbers)
+   ```
 
-# Splitting the input into a list of numbers
-numbers = user_input.split(',')
+   In this modified version, the program prompts the user to enter a list of numbers separated by commas.
+   The `split(',')`
+   method is used to separate the numbers based on commas, resulting in a list of strings. The list
+   comprehension `[int(num) for num in numbers]` converts these strings to integers.
 
-# Converting the strings to integers
-numbers = [int(num) for num in numbers]
+   For example, if the user enters `"1, 2, 3, 4, 5"`, the program will output:
 
-# Printing the list of numbers
-print("List of numbers:", numbers)
-```
-
-In this modified version, the program prompts the user to enter a list of numbers separated by commas. The `split(',')`
-method is used to separate the numbers based on commas, resulting in a list of strings. The list
-comprehension `[int(num) for num in numbers]` converts these strings to integers.
-
-For example, if the user enters `"1, 2, 3, 4, 5"`, the program will output:
-
-```
-List of numbers: [1, 2, 3, 4, 5]
-```
+   ```
+   List of numbers: [1, 2, 3, 4, 5]
+   ```
 
 3. If you want to use a comma followed by a space `(", ")` as the delimiter to split the input, you can modify the code
    accordingly. Here's an example:
 
+   ```python
+   # Taking input from the user
+   user_input = input("Enter a list of numbers separated by commas and spaces: ")
+   
+   # Splitting the input into a list of numbers
+   numbers = user_input.split(', ')
+   
+   # Converting the strings to integers
+   numbers = [int(num) for num in numbers]
+   
+   # Printing the list of numbers
+   print("List of numbers:", numbers)
+   ```
+
+   In this modified version, the program prompts the user to enter a list of numbers separated by commas and spaces.
+   The `split(', ')` method is used to separate the numbers based on the comma followed by a space, resulting in a list
+   of
+   strings. The list comprehension `[int(num) for num in numbers]` converts these strings to integers.
+
+   For example, if the user enters `"1, 2, 3, 4, 5"`, the program will output:
+
+   ```
+   List of numbers: [1, 2, 3, 4, 5]
+   ```
+
+---
+
+# Can we use split for integers?
+
+The `split` method is a string method in Python, and it is not applicable to integers.
+
+If you want to "split" an integer into its individual digits, you would need to convert it to a string first, then apply
+the `split` method or use other methods like using a loop to extract each digit.
+
+For example, if you have the integer `12345`, you can convert it to a string and then split it like this:
+
 ```python
-# Taking input from the user
-user_input = input("Enter a list of numbers separated by commas and spaces: ")
-
-# Splitting the input into a list of numbers
-numbers = user_input.split(', ')
-
-# Converting the strings to integers
-numbers = [int(num) for num in numbers]
-
-# Printing the list of numbers
-print("List of numbers:", numbers)
+num = 12345
+num_str = str(num)
+digits = num_str.split()
 ```
 
-In this modified version, the program prompts the user to enter a list of numbers separated by commas and spaces.
-The `split(', ')` method is used to separate the numbers based on the comma followed by a space, resulting in a list of
-strings. The list comprehension `[int(num) for num in numbers]` converts these strings to integers.
+This would give you a list of strings `['1', '2', '3', '4', '5']`. If you want the individual digits as integers, you
+would need to convert them back:
 
-For example, if the user enters `"1, 2, 3, 4, 5"`, the program will output:
+```python
+digits = [int(digit) for digit in num_str]
+```
 
-```
-List of numbers: [1, 2, 3, 4, 5]
-```
+Now `digits` will be a list of integers `[1, 2, 3, 4, 5]`.
 
 ---
 
@@ -577,7 +608,8 @@ represent various types of data in a structured and organized manner.
 
 # Slicing in python
 
-Certainly! In Python, slicing is a way to extract a portion of a sequence (like a string, list, or tuple) using a specific syntax. The basic syntax for slicing is:
+Certainly! In Python, slicing is a way to extract a portion of a sequence (like a string, list, or tuple) using a
+specific syntax. The basic syntax for slicing is:
 
 ```python
 sequence[start:stop:step]
@@ -622,7 +654,8 @@ my_tuple = (1, 2, 3, 4, 5, 6, 7, 8, 9)
 sliced_tuple = my_tuple[2:7]  # Result: (3, 4, 5, 6, 7)
 ```
 
-Keep in mind that when slicing, if you omit `start`, it will default to the beginning of the sequence. If you omit `stop`, it will default to the end of the sequence. If you omit `step`, it will default to 1.
+Keep in mind that when slicing, if you omit `start`, it will default to the beginning of the sequence. If you
+omit `stop`, it will default to the end of the sequence. If you omit `step`, it will default to 1.
 
 Remember, indices in Python are 0-based, which means the first element has an index of 0.
 
