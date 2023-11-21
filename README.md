@@ -183,7 +183,7 @@ For more information about the course and to enroll, visit [Angela Yu's website]
 
 Special thanks to Angela Yu for creating this amazing bootcamp and providing valuable resources for learning Python.
 
----
-
 Feel free to clone this repository and use it as a template for your own "100 Days of Python" journey. Happy coding!
 🐍🚀
+
+<p align="center"><a href="https://www.buymeacoffee.com/ranitmanik" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
