@@ -14,9 +14,8 @@ bootcamp is an intensive programming course that covers a wide range of topics i
 1. [Getting Started](#getting-started)
 2. [About the Course](#about-the-course)
 3. [Syllabus](#-beginner)
-4. [Tools and technologies](#tools-and-technologies)
-5. [Resources](#resources)
-6. [Acknowledgements](#acknowledgements)
+4. [Resources](#resources)
+5. [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -168,47 +167,6 @@ For more information about the course and to enroll, visit [Angela Yu's website]
 - [Day 98](day98): Portfolio Project - Analysed and Visualise the Space Race
 - [Day 99](day99): Portfolio Project - Analyzing Deaths involving Police in the United States
 - [Day 100](day100): Portfolio Project - Predicting Earnings using Multivariable Regression
-
----
-
-## Tools and technologies
-
-- Python 3
-- PyCharm, Jupyter Notebook, Google Colab
-- Python Scripting and Automation
-- Python Game Development
-- Web Scraping
-- Beautiful Soup
-- Selenium Web Driver
-- Request
-- WTForms
-- Data Science
-- Pandas
-- NumPy
-- Matplotlib
-- Plotly
-- Scikit learn
-- Seaborn
-- Turtle
-- Python GUI Desktop App Development
-- Tkinter
-- Front-End Web Development
-- HTML 5
-- CSS 3
-- Bootstrap 4
-- Bash Command Line
-- Git, GitHub and Version Control
-- Backend Web Development
-- Flask
-- REST
-- APIs
-- Databases
-- SQL
-- SQLite
-- PostgreSQL
-- Authentication
-- Web Design
-- Deployment with GitHub Pages, Heroku and GUnicorn
 
 ---
 
