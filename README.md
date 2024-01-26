@@ -4,7 +4,6 @@
 
 ![Course Logo](logo.png)
 
----
 
 This repository contains code and projects completed during the "100 Days of Python" bootcamp by Angela Yu. This
 bootcamp is an intensive programming course that covers a wide range of topics in Python programming.
@@ -17,7 +16,6 @@ bootcamp is an intensive programming course that covers a wide range of topics i
 4. [Resources](#resources)
 5. [Acknowledgements](#acknowledgements)
 
----
 
 ## Getting Started
 
@@ -43,8 +41,6 @@ _To explore into this repository, follow these steps:_
    ```bash
     git push --set-upstream origin DEV/{your_name}/{in which you working on}
 
----
-
 ## About the Course
 
 The "100 Days of Python" bootcamp by Angela Yu is a comprehensive course designed to take learners from Python basics to
@@ -52,11 +48,10 @@ advanced topics. The course focuses on hands-on coding and includes a variety of
 
 For more information about the course and to enroll, visit [Angela Yu's website](https://www.appbrewery.co/).
 
----
 
 ![wallpaper](wallpaper.png)
 
----
+
 
 ## 👨🏻‍🎓 Beginner
 - [x] [Day 01](day01): Working with Variables in Python to Manage Data
@@ -168,7 +163,6 @@ For more information about the course and to enroll, visit [Angela Yu's website]
 - [Day 99](day99): Portfolio Project - Analyzing Deaths involving Police in the United States
 - [Day 100](day100): Portfolio Project - Predicting Earnings using Multivariable Regression
 
----
 
 ## Resources
 
@@ -177,7 +171,6 @@ For more information about the course and to enroll, visit [Angela Yu's website]
 * [PyCharm Free Student License](https://jb.gg/GetStudentLicense)
 * [Angela Yu Course link](https://www.udemy.com/course/100-days-of-code/)
 
----
 
 ## Acknowledgements
 
