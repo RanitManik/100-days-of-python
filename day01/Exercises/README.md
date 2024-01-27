@@ -130,4 +130,3 @@ e.g. When you hit **run**, this is what should happen:
 1. You should not have to type any numbers in your code.
 2. You might need to make some more variables.
 
----

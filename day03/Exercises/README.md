@@ -418,4 +418,3 @@ Not sure you're getting the correct score for the exercise? Use this table to ch
 
 [https://stackoverflow.com/questions/1155617/count-the-number-occurrences-of-a-character-in-a-string](https://stackoverflow.com/questions/1155617/count-the-number-occurrences-of-a-character-in-a-string)
 
----

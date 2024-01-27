@@ -144,4 +144,3 @@ FizzBuzz`
 
 2. Each number/text should be printed on a separate line.
 
----

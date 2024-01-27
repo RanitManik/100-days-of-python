@@ -140,4 +140,3 @@ e.g. When you hit **run**, this is what should happen:
 1. Remember that Lists start at index 0!
 2. ```map``` is just a variable that contains a nested list. It's not related to the map function in Python.
 
----

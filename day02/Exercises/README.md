@@ -121,5 +121,4 @@ e.g. When you hit **run**, this is what should happen:
 2. Try copying the example output into your code and replace the relevant parts so that the sentence is formated the
    same way.
 
----
 
