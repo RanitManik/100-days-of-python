@@ -1,6 +1,15 @@
-> # Exercise 5.1 - Average Height
+# Day 5 Exercises
 
-## Instructions
+1. [Exercise 5.1 - Average Height](#exercise-51---average-height)
+2. [Exercise 5.2 - Highest Score](#exercise-52---highest-score)
+3. [Exercise 5.3 - Adding Evens](#exercise-53---adding-evens)
+4. [Exercise 5.4 - FizzBuzz](#exercise-54---fizzbuzz)
+
+---
+
+## Exercise 5.1 - Average Height
+
+### Instructions
 
 You are going to write a program that calculates the average student height from a List of heights.
 
@@ -40,15 +49,15 @@ e.g. When you hit **run**, this is what should happen:
 
 <img src="https://cdn.fs.teachablecdn.com/Nzb8hUVsQJ6STAGnvDCP" alt="Exercise GIF" style="width: 100%;">
 
-## Hint
+### Hint
 
 1. Remember to use the `round()` function to round the average height before you print it.
 
 ---
 
-> # Exercise 5.2 - Highest Score
+## Exercise 5.2 - Highest Score
 
-## Instructions
+### Instructions
 
 You are going to write a program that calculates the highest score from a List of scores.
 
@@ -58,7 +67,7 @@ e.g. `student_scores = [78, 65, 89, 86, 55, 91, 64, 89]`
 
 > `The highest score in the class is: x`
 
-## Example Input
+### Example Input
 
 ```
 78 65 89 86 55 91 64 89
@@ -66,7 +75,7 @@ e.g. `student_scores = [78, 65, 89, 86, 55, 91, 64, 89]`
 
 In this case, student_scores would be a list that looks like: `[78, 65, 89, 86, 55, 91, 64, 89]`
 
-## Example Output
+### Example Output
 
 ```
 The highest score in the class is: 91
@@ -77,15 +86,15 @@ e.g. When you hit **run**, this is what should happen:
 
 <img src="https://cdn.fs.teachablecdn.com/DnSPgYNSTgeHRJ3MinHg" alt="Exercise GIF" style="width: 100%;">
 
-## Hint
+### Hint
 
 1. Think about the logic before writing code. How can you compare numbers against each other to see which one is larger?
 
 ---
 
-> # Exercise 5.3 - Adding Evens
+## Exercise 5.3 - Adding Evens
 
-## Instructions
+### Instructions
 
 You are going to write a program that calculates the sum of all the even numbers from 1 to 100. Thus, the first even
 number would be 2 and the last one is 100:
@@ -95,14 +104,14 @@ i.e. 2 + 4 + 6 + 8 +10 ... + 98 + 100
 Important, there should only be 1 print statement in your console output. It should just print the final total and not
 every step of the calculation.
 
-## Hint
+### Hint
 
 1. There are quite a few ways of solving this problem, but you will need to use the `range()` function in any of the
    solutions.
 
 ---
 
-> # Exercise 5.4 - FizzBuzz
+## Exercise 5.4 - FizzBuzz
 
 ## Instructions
 

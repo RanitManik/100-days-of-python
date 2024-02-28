@@ -1,6 +1,14 @@
-> # Exercise 4.1 - Heads or Tails
+# Day 4 Exercises
 
-## Instructions
+1. [Exercise 4.1 - Heads or Tails](#exercise-41---heads-or-tails)
+2. [Exercise 4.2 - Who's Paying](#exercise-42---whos-paying)
+3. [Exercise 4.3 - Treasure Map](#exercise-43---treasure-map)
+
+---
+
+## Exercise 4.1 - Heads or Tails
+
+### Instructions
 
 You are going to write a virtual coin toss program. It will randomly tell the user "Heads" or "Tails".
 
@@ -13,7 +21,7 @@ e.g.
 1 means Heads
 0 means Tails
 
-## Example Output
+### Example Output
 
 ```
 Heads
@@ -27,9 +35,9 @@ Tails
 
 ---
 
-> # Exercise 4.2 - Who's Paying
+## Exercise 4.2 - Who's Paying
 
-## Instructions
+### Instructions
 
 You are going to write a program which will select a random name from a list of names. The person selected will have to
 pay for everybody's food bill.
@@ -39,7 +47,7 @@ pay for everybody's food bill.
 **Line 8** splits the string `names_string` into individual names and puts them inside a **List** called `names`. For
 this to work, you must enter all the names as name followed by comma then space. e.g. name, name, name
 
-## Example Input
+### Example Input
 
 ```
 Angela, Ben, Jenny, Michael, Chloe
@@ -47,22 +55,22 @@ Angela, Ben, Jenny, Michael, Chloe
 
 Note: notice that there is a space between the comma and the next name.
 
-## Example Output
+### Example Output
 
 ```
 Michael is going to buy the meal today!
 ```
 
-## Hint
+### Hint
 
 1. You might need the help of the `len()` function.
 2. Remember that Lists start at index 0!
 
 ---
 
-> # Exercise 4.3 - Treasure Map
+## Exercise 4.3 - Treasure Map
 
-## Instructions
+### Instructions
 
 You are going to write a program which will mark a spot with an X.
 
@@ -95,7 +103,7 @@ First your program must take the user input and convert it to a usable format.
 
 Next, you need to use it to update your nested list with an "x".
 
-## Example Input 1
+### Example Input 1
 
 column 2, row 3 would be entered as:
 
@@ -103,7 +111,7 @@ column 2, row 3 would be entered as:
 23
 ```
 
-## Example Output 1
+### Example Output 1
 
 ```
 ['⬜️', '⬜️', '⬜️']
@@ -113,7 +121,7 @@ column 2, row 3 would be entered as:
 ['⬜️', 'X', '⬜️']
 ```
 
-## Example Input 2
+### Example Input 2
 
 column 3, row 1 would be entered as:
 
@@ -121,7 +129,7 @@ column 3, row 1 would be entered as:
 31
 ```
 
-## Example Output 2
+### Example Output 2
 
 ```
 ['⬜️', '⬜️', 'X']
@@ -135,7 +143,7 @@ e.g. When you hit **run**, this is what should happen:
 
 <img src="https://cdn.fs.teachablecdn.com/5hliFjyIR96LdestyfPd" alt="Exercise GIF" style="width: 100%;">
 
-## Hint
+### Hint
 
 1. Remember that Lists start at index 0!
 2. ```map``` is just a variable that contains a nested list. It's not related to the map function in Python.

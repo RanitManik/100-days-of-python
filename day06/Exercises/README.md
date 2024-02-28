@@ -1,37 +1,45 @@
-> # Exercise 6.1 - Hurdle 1
+# Day 6 Exercises
 
-Reeborg has entered a hurdles race. The goal is to make him run the course, following the path shown.
-
-## What You Need to Know
-
-- The functions `move()` and `turn_left()`.
+1. [Exercise 6.1 - Hurdle 1](#exercise-61---hurdle-1)
+2. [Exercise 6.2 - Hurdle 3](#exercise-62---hurdle-3)
+3. [Exercise 6.3 - Hurdle 4](#exercise-63---hurdle-4)
 
 ---
 
-> # Exercise 6.2 - Hurdle 3
+## Exercise 6.1 - Hurdle 1
 
-Reeborg has entered a hurdle race. Make him run the course, following the path shown.
+**Objective:** Guide Reeborg through the hurdles using the provided path.
 
-The position and number of hurdles changes each time this world is reloaded.
+**Functions:**
 
-## What you need to know
-
-- The functions `move()` and `turn_left()`.
-- The conditions `front_is_clear()` or `wall_in_front()`, `at_goal()`, and their negation.
-- How to use a `while loop` and an `if statement`.
-- Your program should also be valid for worlds Hurdles 1 and Hurdles 2.
+- `move()`: Move Reeborg forward.
+- `turn_left()`: Turn Reeborg to the left.
 
 ---
 
-> # Exercise 6.3 - Hurdle 4
+## Exercise 6.2 - Hurdle 3
 
-Reeborg has entered a hurdle race. Make him run the course, following the path shown.
+**Objective:** Guide Reeborg through a hurdle race with changing positions and numbers of hurdles.
 
-The position, the height and the number of hurdles changes each time this world is reloaded.
+**Functions:**
 
-## What you need to know
+- `move()`: Move Reeborg forward.
+- `turn_left()`: Turn Reeborg to the left.
+- Conditions: `front_is_clear()`, `wall_in_front()`, `at_goal()`, `while` loop, and `if statement`.
 
-- You should be able to write programs that are valid for worlds Around 4 and Hurdles 3, and ot combine them for this
-  last hurdles race.
+**Note:** Ensure your program is valid for Hurdles 1 and Hurdles 2 as well.
 
-- Your program should also be valid for worlds Hurdles 1, Hurdles 2 et Hurdles 3
+---
+
+## Exercise 6.3 - Hurdle 4
+
+**Objective:** Guide Reeborg through a hurdle race with changing positions, heights, and numbers of hurdles.
+
+**Functions:**
+
+- `move()`: Move Reeborg forward.
+- `turn_left()`: Turn Reeborg to the left.
+- Conditions: `front_is_clear()`, `wall_in_front()`, `at_goal()`, `while` loop, and `if statement`.
+
+**Note:** Your program should be valid for Hurdles 1, Hurdles 2, Hurdles 3, and Around 4. Combine relevant concepts from
+previous exercises.

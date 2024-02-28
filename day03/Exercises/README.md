@@ -1,6 +1,16 @@
-> # Exercise 3.1 - Odd or Even
+# Day 3 Exercises
 
-## Instructions
+1. [Exercise 3.1 - Odd or Even](#exercise-31---odd-or-even)
+2. [Exercise 3.2 - BMI Calculator 2.0](#exercise-32---bmi-calculator-20)
+3. [Exercise 3.3 - Leap Year](#exercise-33---leap-year)
+4. [Exercise 3.4 - Pizza Order](#exercise-34---pizza-order)
+5. [Exercise 3.5 - Love Calculator](#exercise-35---love-calculator)
+
+---
+
+## Exercise 3.1 - Odd or Even
+
+### Instructions
 
 Write a program that works out whether if a given number is an odd or even number.
 
@@ -38,25 +48,25 @@ e.g.
 
 **Warning** your output should match the Example Output format exactly, even the positions of the commas and full stops.
 
-## Example Input 1
+### Example Input 1
 
 ```
 43
 ```
 
-## Example Output 1
+### Example Output 1
 
 ```
 This is an odd number.
 ```
 
-## Example Input 2
+### Example Input 2
 
 ```
 94
 ```
 
-## Example Output 2
+### Example Output 2
 
 ```
 This is an even number.
@@ -66,7 +76,7 @@ e.g. When you hit **run**, this is what should happen:
 
 <img src="https://cdn.fs.teachablecdn.com/bkF9TKJSTGksvxNzOtba" alt="Exercise GIF" style="width: 100%;">
 
-## Hint
+### Hint
 
 1. All even numbers can be divided by 2 with 0 remainder.
 2. Try some using the modulo with some odd numbers e.g.
@@ -99,9 +109,9 @@ Then try using the modulo with some even numbers e.g.
 
 ---
 
-> # Exercise 3.2 - BMI Calculator 2.0
+## Exercise 3.2 - BMI Calculator 2.0
 
-## Instructions
+### Instructions
 
 Write a program that interprets the Body Mass Index (BMI) based on a user's weight and height.
 
@@ -122,7 +132,7 @@ The BMI is calculated by dividing a person's weight (in kg) by the square of the
 **Warning** you should **round** the result to the nearest whole number. The interpretation message needs to include the
 words in bold from the interpretations above. e.g. **underweight, normal weight, overweight, obese, clinically obese**.
 
-## Example Input
+### Example Input
 
 ```
 weight = 85
@@ -132,7 +142,7 @@ weight = 85
 height = 1.75
 ```
 
-## Example Output
+### Example Output
 
 85 ÷ (1.75 x 1.75) = 27.755102040816325
 
@@ -154,7 +164,7 @@ The testing code will check for print output that is formatted like one of the l
 "Your BMI is 40, you are clinically obese."
 ```
 
-## Hint
+### Hint
 
 1. Try to use the **exponent** operator in your code.
 2. Remember to **round** your result to the nearest whole number.
@@ -162,9 +172,9 @@ The testing code will check for print output that is formatted like one of the l
 
 ---
 
-> # Exercise 3.3 - Leap Year
+## Exercise 3.3 - Leap Year
 
-## Instructions
+### Instructions
 
 Write a program that works out whether if a given year is a leap year. A normal year has 365 days, leap years have 366,
 with an extra day in February. The reason why we have leap years is really fascinating, this video does it more justice:
@@ -197,25 +207,25 @@ But the year 2100 is not a leap year because:
 
 **Warning** your output should match the Example Output format exactly, even the positions of the commas and full stops.
 
-## Example Input 1
+### Example Input 1
 
 ```
 2400
 ```
 
-## Example Output 1
+### Example Output 1
 
 ```
 Leap year.
 ```
 
-## Example Input 2
+### Example Input 2
 
 ```
 1989
 ```
 
-## Example Output 2
+### Example Output 2
 
 ```
 Not leap year.
@@ -225,16 +235,16 @@ e.g. When you hit **run**, this is what should happen:
 
  <img src="https://cdn.fs.teachablecdn.com/AthNqKoSm6JD4sMom2X2" alt="Exercise GIF" style="width: 100%;">
 
-## Hint
+### Hint
 
 1. Try to visualise the rules by creating a flow chart on www.draw.io
 2. If you really get stuck, you can see the [flow chart I created.](https://bit.ly/36BjS2D)
 
 ---
 
-> # Exercise 3.4 - Pizza Order
+## Exercise 3.4 - Pizza Order
 
-## Instructions
+### Instructions
 
 Congratulations, you've got a job at Python Pizza. Your first job is to build an automatic pizza order program.
 
@@ -264,7 +274,7 @@ Pepperoni for Medium or Large Pizza: +$3
 Extra cheese for any size pizza: + $1
 ```
 
-## Example Input
+### Example Input
 
 ```
 size = "L"
@@ -278,7 +288,7 @@ add_pepperoni = "Y"
 extra_cheese = "N"
 ```
 
-## Example Output
+### Example Output
 
 ```
 Your final bill is: $28.
@@ -289,16 +299,16 @@ e.g. When you hit **run**, this is what should happen:
 
 <img src="https://cdn.fs.teachablecdn.com/p1evEkwQxGNR4WlolIb4" alt="Exercise GIF" style="width: 100%;">
 
-## Hint
+### Hint
 
 1. Think about what you've learnt about multiple if statements and see if you can reduce the number of lines of code
    while having the same functionality.
 
 ---
 
-> # Exercise 3.5 - Love Calculator
+## Exercise 3.5 - Love Calculator
 
-## Instructions
+### Instructions
 
 You are going to write a program that tests the compatibility between two people.
 
@@ -350,7 +360,7 @@ Love Score = 53
 
 Print: "Your score is 53."
 
-## Example Input 1
+### Example Input 1
 
 ```
 name1 = "Kanye West"
@@ -360,13 +370,13 @@ name1 = "Kanye West"
 name2 = "Kim Kardashian"
 ```
 
-## Example Output 1
+### Example Output 1
 
 ```
 Your score is 42, you are alright together.
 ```
 
-## Example Input 2
+### Example Input 2
 
 ```
 name1 = "Brad Pitt"
@@ -376,7 +386,7 @@ name1 = "Brad Pitt"
 name2 = "Jennifer Aniston"
 ```
 
-## Example Output 2
+### Example Output 2
 
 ```
 Your score is 73.
@@ -394,27 +404,23 @@ The testing code will check for print output that is formatted like one of the l
 "Your score is 54."
 ```
 
-## Score Comparison
+### Score Comparison
 
 Not sure you're getting the correct score for the exercise? Use this table to check your code's score against mine.
 
 | Name 1               | Name 2             | Score |
 |----------------------|--------------------|-------|
- Catherine Zeta-Jones | Michael Douglas    | 99    
- Brad Pitt            | 	Jennifer Aniston	 | 73    
- Prince William	      | Kate Middleton	    | 67    
- Angela Yu	           | Jack Bauer	        | 53    
- Kanye West	          | Kim Kardashian	    | 42    
- Beyonce	             | Jay-Z	             | 23    
- John Lennon	         | Yoko Ono	          | 18    
+| Catherine Zeta-Jones | Michael Douglas    | 99    |
+| Brad Pitt            | 	Jennifer Aniston	 | 73    |
+| Prince William	      | Kate Middleton	    | 67    |
+| Angela Yu	           | Jack Bauer	        | 53    |
+| Kanye West	          | Kim Kardashian	    | 42    |
+| Beyonce	             | Jay-Z	             | 23    |
+| John Lennon	         | Yoko Ono	          | 18    |
 
-## Hint
+### Hint
 
-1. The `lower()` function changes all the letters in a string to lower case.
+1. [The `lower()` function changes all the letters in a string to lower case.](https://stackoverflow.com/questions/6797984/how-do-i-lowercase-a-string-in-python)
 
-[https://stackoverflow.com/questions/6797984/how-do-i-lowercase-a-string-in-python](https://stackoverflow.com/questions/6797984/how-do-i-lowercase-a-string-in-python)
-
-2. The `count()` function will give you the number of times a letter occurs in a string.
-
-[https://stackoverflow.com/questions/1155617/count-the-number-occurrences-of-a-character-in-a-string](https://stackoverflow.com/questions/1155617/count-the-number-occurrences-of-a-character-in-a-string)
+2. [The `count()` function will give you the number of times a letter occurs in a string.](https://stackoverflow.com/questions/1155617/count-the-number-occurrences-of-a-character-in-a-string)
 

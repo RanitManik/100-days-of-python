@@ -1,19 +1,27 @@
-> # Exercise 2.1 - Data Types
+# Day 2 Exercises
 
-## Instructions
+1. [Exercise 2.1 - Data Types](#exercise-21---data-types)
+2. [Exercise 2.2 - BMI Calculator](#exercise-22---bmi-calculator)
+3. [Exercise 2.3 - Your Life in Weeks](#exercise-23---your-life-in-weeks)
+
+---
+
+## Exercise 2.1 - Data Types
+
+### Instructions
 
 Write a program that adds the digits in a 2 digit number. e.g. if the input was 35, then the output should be 3 + 5 = 8
 
 **Warning.** Do not change the code on lines 1-3. Your program should work for different inputs. e.g. any two-digit
 number.
 
-## Example Input
+### Example Input
 
 ```
 39
 ```
 
-## Example Output
+### Example Output
 
 3 + 9 = 12
 
@@ -25,7 +33,7 @@ e.g. When you hit **run**, this is what should happen:
 
 <img src="https://cdn.fs.teachablecdn.com/iyJTPDDRRJCB1gmdVQMS" alt="Exercise GIF" style="width: 100%;">
 
-## Hint
+### Hint
 
 1. Try to find out the data type of two_digit_number.
 2. Think about what you learnt about subscripting.
@@ -33,9 +41,9 @@ e.g. When you hit **run**, this is what should happen:
 
 ---
 
-> # Exercise 2.2 - BMI Calculator
+## Exercise 2.2 - BMI Calculator
 
-## Instructions
+### Instructions
 
 Write a program that calculates the Body Mass Index (BMI) from a user's weight and height.
 
@@ -48,7 +56,7 @@ The BMI is calculated by dividing a person's weight (in kg) by the square of the
 
 **Warning** you should convert the result to a whole number.
 
-## Example Input
+### Example Input
 
 ```
 weight = 80
@@ -58,7 +66,7 @@ weight = 80
 height = 1.75
 ```
 
-## Example Output
+### Example Output
 
 80 ÷ (1.75 x 1.75) = 26.122448979591837
 
@@ -70,7 +78,7 @@ e.g. When you hit **run**, this is what should happen:
 
 <img src="https://cdn.fs.teachablecdn.com/wmjVjddeSmGj0QVtOUrE" alt="Exercise GIF" style="width: 100%;">
 
-## Hint
+### Hint
 
 1. Check the data type of the inputs.
 2. Try to use the exponent operator in your code.
@@ -79,9 +87,9 @@ e.g. When you hit **run**, this is what should happen:
 
 ---
 
-> # Exercise 2.3 - Your Life in Weeks
+## Exercise 2.3 - Your Life in Weeks
 
-# Instructions
+### Instructions
 
 I was reading this article by Tim Urban - Your Life in Weeks and realised just how little time we actually have.
 
@@ -98,13 +106,13 @@ Where x, y and z are replaced with the actual calculated numbers.
 
 **Warning** your output should match the Example Output format exactly, even the positions of the commas and full stops.
 
-# Example Input
+### Example Input
 
 ```
 56
 ```
 
-# Example Output
+### Example Output
 
 ```
 You have 12410 days, 1768 weeks, and 408 months left.
@@ -112,10 +120,9 @@ You have 12410 days, 1768 weeks, and 408 months left.
 
 e.g. When you hit **run**, this is what should happen:
 
-
 <img src="https://cdn.fs.teachablecdn.com/RjqBViZQpyVTv7XY6cfA" alt="Exercise GIF" style="width: 100%;">
 
-# Hint
+### Hint
 
 1. There are 365 days in a year, 52 weeks in a year and 12 months in a year.
 2. Try copying the example output into your code and replace the relevant parts so that the sentence is formated the
