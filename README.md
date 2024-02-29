@@ -4,7 +4,6 @@
 
 ![Course Logo](logo.png)
 
-
 This repository contains code and projects completed during the "100 Days of Python" bootcamp by Angela Yu. This
 bootcamp is an intensive programming course that covers a wide range of topics in Python programming.
 
@@ -15,7 +14,6 @@ bootcamp is an intensive programming course that covers a wide range of topics i
 3. [Syllabus](#-beginner)
 4. [Resources](#resources)
 5. [Acknowledgements](#acknowledgements)
-
 
 ## Getting Started
 
@@ -48,19 +46,17 @@ advanced topics. The course focuses on hands-on coding and includes a variety of
 
 For more information about the course and to enroll, visit [Angela Yu's website](https://www.appbrewery.co/).
 
-
 ![wallpaper](wallpaper.png)
 
-
-
 ## 👨🏻‍🎓 Beginner
+
 - [x] [Day 01](day01): Working with Variables in Python to Manage Data
 - [x] [Day 02](day02): Understanding Data Types and How to Manipulate Strings
 - [x] [Day 03](day03): Control Flow and Logical Operators
 - [x] [Day 04](day04): Randomisation and Python Lists
 - [x] [Day 05](day05): Python Loops
 - [x] [Day 06](day06): Python Functions & Karel
-- [Day 07](day07): Hangman
+- [x] [Day 07](day07): Hangman
 - [Day 08](day08): Function Parameters & Caesar Cipher
 - [Day 09](day09): Dictionaries, Nesting and the Secret Auction
 - [Day 10](day10): Function Return Values and the Calculator Project
@@ -70,6 +66,7 @@ For more information about the course and to enroll, visit [Angela Yu's website]
 - [Day 14](day14): Higher Lower Game Project
 
 ## 🏋🏻‍♂️ Intermediate
+
 - [Day 15](day15): Local Development Environment Setup & the Coffee Machine Project
 - [Day 16](day16): Object Oriented Programming (OOP)
 - [Day 17](day17): The Quiz Project & the Benefits of OOP
@@ -89,6 +86,7 @@ For more information about the course and to enroll, visit [Angela Yu's website]
 - [Day 31](day31): Capstone Project - Flash Card App
 
 ## 💪 Intermediate+
+
 - [Day 32](day32): Send Email (smtplib) & Manage Dates (datetime): The Automated Birthday Wisher
 - [Day 33](day33): API Endpoints and API Parameters - ISS Overhead Notifier
 - [Day 34](day34): API Practice - Creating a GUI Quiz App
@@ -118,6 +116,7 @@ For more information about the course and to enroll, visit [Angela Yu's website]
 - [Day 58](day58): Bootstrap
 
 ## 🚀 Advanced
+
 - [Day 59](day59): Upgraded Blog with Bootstrap
 - [Day 60](day60): HTML Forms with Flask
 - [Day 61](day61): Building Advanced Forms with WTForms
@@ -142,6 +141,7 @@ For more information about the course and to enroll, visit [Angela Yu's website]
 - [Day 80](day80): Capstone Project - Predict House Prices
 
 ## 👨‍💻 Professional
+
 - [Day 81](day81): Portfolio Project - Text to Morse Code Converter
 - [Day 82](day82): Portfolio Project - A website to show off your skills and the things I built
 - [Day 83](day83): Portfolio Project - Built a text-based version of the Tic Tac Toe game
@@ -163,14 +163,12 @@ For more information about the course and to enroll, visit [Angela Yu's website]
 - [Day 99](day99): Portfolio Project - Analyzing Deaths involving Police in the United States
 - [Day 100](day100): Portfolio Project - Predicting Earnings using Multivariable Regression
 
-
 ## Resources
 
 * [Official Python Documentation](https://docs.python.org/3/)
 * [PyCharm Community Edition](https://jb.gg/getPyCharm)
 * [PyCharm Free Student License](https://jb.gg/GetStudentLicense)
 * [Angela Yu Course link](https://www.udemy.com/course/100-days-of-code/)
-
 
 ## Acknowledgements
 

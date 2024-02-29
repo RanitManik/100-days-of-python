@@ -1,14 +1,6 @@
-# Day 5 Exercises
+# Hangman Game
 
-1. [Exercise 7.1](https://repl.it/@ranit-manik/Day-7-Hangman-1-Start#main.py)
-2. [Exercise 7.2](https://repl.it/@ranit-manik/Day-7-Hangman-2-Start#main.py)
-3. [Exercise 7.3](https://repl.it/@ranit-manik/Day-7-Hangman-3-Start#main.py)
-4. [Exercise 7.4](https://repl.it/@ranit-manik/Day-7-Hangman-4-Start#main.py)
-5. [Exercise 7.5](https://repl.it/@ranit-manik/Day-7-Hangman-5-Start#main.py)
-
----
-
-## Hangman Game Flowchart
+## Flowchart
 
 ```mermaid
 graph TD
@@ -26,7 +18,7 @@ graph TD
     J -- No --> K[Game Over]
 ```
 
-### Explanation:
+## Explanation:
 
 - **Start Game (A):** The game begins.
 - **Choose Word (B):** The game randomly selects a word for the player to guess.
