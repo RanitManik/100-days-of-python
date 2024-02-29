@@ -1,5 +1,9 @@
 # Hangman Game
 
+Hangman is a guessing game for two or more players. One player thinks of a word, phrase, or sentence, and the others try to guess it by suggesting letters or numbers within a certain number of guesses. Originally a paper-and-pencil game, there are now electronic versions.
+
+In this project, we are implementing the Hangman Game in Python.
+
 ## Flowchart
 
 ```mermaid
