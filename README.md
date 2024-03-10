@@ -57,7 +57,7 @@ For more information about the course and to enroll, visit [Angela Yu's website]
 - [x] [Day 05](day05): Python Loops
 - [x] [Day 06](day06): Python Functions & Karel
 - [x] [Day 07](day07): Hangman
-- [Day 08](day08): Function Parameters & Caesar Cipher
+- [x] [Day 08](day08): Function Parameters & Caesar Cipher
 - [Day 09](day09): Dictionaries, Nesting and the Secret Auction
 - [Day 10](day10): Function Return Values and the Calculator Project
 - [Day 11](day11): Blackjack Capstone Project
