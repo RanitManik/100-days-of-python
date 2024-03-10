@@ -13,4 +13,4 @@
 - https://repl.it/@ranit-manik/caesar-cipher-3-start#main.py
 - https://repl.it/@ranit-manik/caesar-cipher-4-start
 
-![caesar cipher](https://github.com/ranit-manik/100-days-of-python/raw/main/day08/caesar_cipher.gif)
+![caesar cipher](https://github.com/lenargasimov/100-days-of-python/raw/main/day08/caesar_cipher.gif)
